@@ -12,7 +12,7 @@
 package gls
 
 import (
-	"github.com/cosmos72/gls/runtime"
+	"github.com/synopsys-sig/gls/runtime"
 )
 
 // return the current goroutine ID.

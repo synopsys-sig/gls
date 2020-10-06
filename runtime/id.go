@@ -12,7 +12,7 @@
 
   Then you should install it manually, but these commands are not enough (TODO: why?)
 
-	DEST="$(go env GOPATH)/pkg/$(go env GOOS)_$(go env GOARCH)/github.com/cosmos72/gls"
+	DEST="$(go env GOPATH)/pkg/$(go env GOOS)_$(go env GOARCH)/github.com/synopsys-sig/gls"
 	mkdir -p     "$DEST"
 	mv runtime.a "$DEST"
 */
